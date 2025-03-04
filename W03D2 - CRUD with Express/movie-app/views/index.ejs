@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Movie app </title>
+    </head>
+    <body>
+        <h1> Movie list </h1>
+        <ul>
+            <% for(let i = 0; i < movieList.length; i ++ ){ %>
+                <li> 
+                    <a href="/movie/<%= movieList[i].id %>"> <%= movieList[i].title %> </a>
+                </li>
+            <% } %>
+        </ul>
+        <form action="/new-movie" method="GET">
+            <button>
+                Add movie
+            </button>
+        </form>
+    </body>
+</html>

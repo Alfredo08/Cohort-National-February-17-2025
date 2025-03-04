@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Movie app </title>
+    </head>
+    <body>
+        <h1> Movie detail </h1>
+        <% if(issue) { %>
+        <p> This movie doesn't exist! </p>
+        <% } else { %>
+            <h2> Title: <%= movie.title %> </h2>
+            <p> Director: <%= movie.director %> </p>
+            <p> Id: <%= movie.id %> </p>
+            <form action="/movie/delete/<%= movie.id %>" method="GET">
+                <button>
+                    Delete
+                </button>
+            </form>
+            <form action="/movie/edit/<%= movie.id %>" method="GET">
+                <button>
+                    Edit
+                </button>
+            </form>
+        <%}%>
+        <a href="/movies"> Back to movie list</a>
+    </body>
+</html>
