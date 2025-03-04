@@ -1,5 +1,5 @@
 # W03 D2 | CRUD with Express
-[Github Repository]() | [Vimeo Video Recording](https://vimeo.com/1062535367/bbf8cf3136?share=copy)
+[Github Repository](https://github.com/Alfredo08/Cohort-National-February-17-2025/tree/main/W03D2%20-%20CRUD%20with%20Express) | [Vimeo Video Recording](https://vimeo.com/1062535367/bbf8cf3136?share=copy)
 
 ## Topics to cover
 
