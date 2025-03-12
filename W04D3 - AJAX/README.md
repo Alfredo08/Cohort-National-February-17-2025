@@ -1,5 +1,5 @@
 # M04 W09 | AJAX
-[Github Repository]() | [Vimeo Video Recording]()
+[Github Repository](https://github.com/Alfredo08/Cohort-National-February-17-2025/tree/main/W04D3%20-%20AJAX) | [Vimeo Video Recording](https://vimeo.com/1065234241/88e26c7965?share=copy)
 
 ## Topics to cover
 
